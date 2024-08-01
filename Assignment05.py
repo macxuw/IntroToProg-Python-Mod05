@@ -40,7 +40,7 @@ try:
 # Check for errors
 except FileNotFoundError as e:
     # If file not found, create
-    print("This script requires an existing text file! Initializing file.\n")
+    print("This script requires an existing file! Initializing file.\n")
     file = open(FILE_NAME, "w")
 except Exception as e:
     print("There was a non-specific error!\n")
